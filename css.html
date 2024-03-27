@@ -6,19 +6,11 @@
     <title>CSS Box Model Example</title>
 
     <style>
-         .Blockbox10{
-            width:400px;
-            height:250px;
-            background-color:#f5f3f1;
-            padding:20px;
-            border:2px solid#b40aca;
-            margin:20px;
-         }
-
-
          .Blockbox1{
-            width:400px;
-            height:250px;
+         display: flex;
+         justify-content: center;
+            width:15 ;
+            height:15 ;
             background-color:#f5f3f1;
             padding:20px;
             border:2px solid#b40aca;
@@ -27,8 +19,10 @@
 
 
         .Blockbox2{
-            width:400px;
-            height:250px;
+            display: flex;
+            justify-content: center;
+            width:15 ;
+            height:15 ;
             background-color:#f3eaea;
             padding:20px;
             border:2px solid#b40aca;
@@ -36,8 +30,8 @@
         }
 
         .Redbox{
-            width:200px;
-            height:150px;
+            width:5 ;
+            height:5 ;
             background-color:#ee1616;
             padding:20px;
             border:2px solid#b40aca;
@@ -47,8 +41,8 @@
     
 
     .Bluebox{
-        width:200px;
-        height:150px;
+        width: 5 ;
+        height:5 ;
         background-color:#3112a3;
         padding:20px;
         border:2px solid#052e30;
@@ -59,8 +53,8 @@
 
 
     .Yellowbox{
-        width:200px;
-        height:150px;
+        width:5 ;
+        height:5 ;
         background-color:#ccee09;
         padding:20px;
         border:2px solid#74e907;
@@ -71,8 +65,8 @@
 
 
     .Greenbox{
-        width:200px;
-        height:150px;
+        width:5 ;
+        height:5 ;
         background-color:#38e70c;
         padding:20px;
         border:2px solid#18286e;
@@ -82,25 +76,25 @@
 </style>
 </head>
 <body>
-    <div class="Blockbox10">
-
         <div class="Blockbox1">
+
             <div class="Redbox">
-            Element box 1.
+                <p>Element box 1.</p>
             </div>
 
             <div class="Bluebox">
-            Element box 2.
+            <p>Element box 2.</p>
             </div>
         </div>
 
         <div class="Blockbox2">
-         <div class="Yellowbox">
-            Element box 3.
-         </div>
 
-         <div class="Greenbox">
-            Element box 4.
+            <div class="Yellowbox">
+            <p> Element box 3.</p>
+            </div>
+
+            <div class="Greenbox">
+            <p>Element box 4.</p>
             </div>
         </div>
     </div>
